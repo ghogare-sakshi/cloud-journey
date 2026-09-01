@@ -16,19 +16,6 @@ Build practical skills in cloud computing, AWS, Linux, networking, Python, DevOp
 | **07** |  Cloud AI Engineering | AI applications on AWS, RAG, vector databases, AI services, inference, AI deployment | Build cloud-based AI solutions                       |
 | **08** |  Real-World Projects  | End-to-end AWS + Python + Docker + AI projects                                       | Build a job-ready Cloud AI portfolio                 |
 
-## Progress
-
-| Phase | Focus | Status |
-|---|---|---|
-| 01 | Cloud Fundamentals | 🟡 In Progress |
-| 02 | Linux + Networking | ⬜ Upcoming |
-| 03 | AWS | ⬜ Upcoming |
-| 04 | Python | ⬜ Upcoming |
-| 05 | DevOps + Containers | ⬜ Upcoming |
-| 06 | AI/ML Fundamentals | ⬜ Upcoming |
-| 07 | Cloud AI Engineering | ⬜ Upcoming |
-| 08 | Real-World Projects | ⬜ Upcoming |
-
 ## Technologies & Tools
 
 ### ☁️ Cloud
