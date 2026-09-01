@@ -4,35 +4,83 @@
 
 ##  Objectives
 
-- Understand virtualization and virtual machines
+- Understand Virtual Machines and virtualization
 - Understand hypervisors
-- Set up Ubuntu using VirtualBox
-- Understand Linux fundamentals
-- Explore the Linux filesystem
+- Understand Linux and the Linux kernel
+- Understand Ubuntu and Linux distributions
+- Learn the Linux filesystem hierarchy
+- Set up an Ubuntu VM using VirtualBox
 - Practise basic Linux commands
-- Understand Git and GitHub
 
-##  Topics Covered
+---
 
-- Virtual Machines (VMs)
-- Hypervisors
-- Linux vs Ubuntu
-- Linux filesystem
-- Basic Linux commands
-- Git & GitHub
+##  Concepts Learned
 
-##  Practical Work
+### Virtual Machine
 
-*To be updated as the Day 1 practical exercises are completed.*
+A Virtual Machine (VM) is a software-based computer that runs inside a physical computer. It uses virtualized CPU, RAM, storage and other resources provided by the physical machine.
 
-##  Key Takeaways
+### Hypervisor
 
-*To be updated at the end of Day 1.*
+A hypervisor creates and manages Virtual Machines and allocates physical resources to them.
 
-##  Challenges & Solutions
+There are two main types:
 
-*To be updated if any issues are encountered.*
+- **Type 1:** Runs directly on physical hardware.
+- **Type 2:** Runs on top of an existing operating system.
 
-##  Day 1 Status
+**VirtualBox is a Type 2 hypervisor.**
 
- In Progress
+### Linux
+
+Linux is technically an open-source kernel. It manages hardware resources and provides an interface between hardware and software.
+
+### Linux Kernel
+
+The Linux kernel is the core component responsible for managing:
+
+- CPU
+- Memory
+- Processes
+- Hardware devices
+- Networking
+
+### Ubuntu
+
+Ubuntu is a Linux distribution that uses the Linux kernel along with system utilities, libraries, package management and other software.
+
+---
+
+##  Linux Filesystem
+
+| Path | Purpose |
+|---|---|
+| `/` | Root of the filesystem |
+| `/home` | Personal directories of regular users |
+| `/etc` | Configuration files |
+| `/var` | Variable data |
+| `/var/log` | System and application logs |
+| `/tmp` | Temporary files |
+| `/root` | Home directory of the root user |
+
+---
+
+##  Hands-on Setup
+
+### Virtualization Environment
+
+- Host OS: Windows
+- Hypervisor: VirtualBox
+- Guest OS: Ubuntu
+- Virtual Disk: 32 GB
+- RAM allocated: 4 GB
+- CPU allocated: 2 cores
+
+### Linux Commands Practised
+
+```bash
+pwd
+ls
+cd
+mkdir
+touch
